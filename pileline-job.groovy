@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('git_ckeckout') {
             steps {
-                echo 'pull success'
+                git branch: 'main', url: 'https://github.com/Anilbamnote/student-ui-app.git'
             }
         }
         stage('build') {
