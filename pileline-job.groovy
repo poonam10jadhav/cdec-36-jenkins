@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('git_ckeckout') {
             steps {
-                git branch: 'main', url: 'https://github.com/Anilbamnote/student-ui-app.git'
+                git branch: 'main',Url:'https://github.com/poonam10jadhav/cdec-36-jenkins.gitt'
             }
         }
         stage('build') {
